@@ -1,0 +1,8 @@
+{% for article in articles %}
+<div>
+    <h2>{{article.title}}</h2>
+    <p>{{article.author}}</p>
+    <p>{{article.published}}</p>
+    <a href={{article.link}}>{{article.link}}</a>
+</div><hr>
+{% endfor %}
